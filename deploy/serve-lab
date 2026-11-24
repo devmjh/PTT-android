@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+state=${1:-"$root/.local/instance"}
+. "$state/server.env"
+exec "$root/dist/ridge" serve

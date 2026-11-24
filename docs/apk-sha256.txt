@@ -1,0 +1,2 @@
+b92c657310294bd8f46b31bc4535deed87efd013d66d77e6059519b34b896ce3  dist/Ridge-Radio-debug.apk
+df6e3f839f6a7b93b2e2e247f313fbb7124b3405bcfeb05c97a4dca0dcafda80  dist/Ridge-Radio-lab-debug.apk

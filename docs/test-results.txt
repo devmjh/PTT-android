@@ -1,0 +1,30 @@
+Ridge Radio 0.1.0 (1)
+2026-11-24, Linux build host
+
+Host service tests with race detection
+=== RUN   TestUSBHandset
+    handset_test.go:22: requires an unlocked handset, adb, and both installed APKs
+--- SKIP: TestUSBHandset (0.00s)
+=== RUN   TestEncryptedPrivateExchange
+--- PASS: TestEncryptedPrivateExchange (7.65s)
+=== RUN   TestPrivateContention100
+--- PASS: TestPrivateContention100 (5.93s)
+=== RUN   TestDeadlinesAndReply
+--- PASS: TestDeadlinesAndReply (5.55s)
+=== RUN   TestDirectoryIdentityAndRecovery
+--- PASS: TestDirectoryIdentityAndRecovery (13.70s)
+=== RUN   TestBackupRestore
+--- PASS: TestBackupRestore (5.33s)
+PASS
+ok  	lab/ridgeradio	39.223s
+
+SM-G990U1 hardware instrumentation with a software peer
+=== RUN   TestUSBHandset
+Samsung-side instrumentation passed. Software peer received 32 handset Opus packets; handset asserted >=3 packets on reply. TURN/TCP over USB.
+--- PASS: TestUSBHandset (4.93s)
+PASS
+ok  	lab/ridgeradio	4.945s
+
+Clean portable debug build with repository Gradle wrapper
+BUILD SUCCESSFUL in 22s
+36 actionable tasks: 36 executed
